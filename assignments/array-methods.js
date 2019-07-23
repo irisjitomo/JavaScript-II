@@ -108,3 +108,8 @@ const upperCaseAllNames = runners.map((callback) => {
 console.log(upperCaseAllNames)
 
 // Problem 3
+let nameAndEmail = []
+runners.forEach((runner) => {
+    nameAndEmail.push(`${runner.first_name}, ${runner.last_name}, ${runner.email}`)
+})
+console.log(nameAndEmail)
